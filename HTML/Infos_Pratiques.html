@@ -2,39 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/Infos_Pratiques.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="../CSS/Infos_Pratiques.css">
     <title>Document</title>
 </head>
 <body>
-    <p class="app-infosPratiquesText">Ceci est de la merde</p>
-    <div class="app-container">
-        <img class="app-photo" src="/Images/photo_du_cinema.jfif"></img>
+    <p class="app-infosPratiquesText">Infos Pratiques</p>
+    <div class="app-containerGrid">
+        <img class="app-photo" src="../Images/photo_du_cinema.jfif"></img>
         <div class="app-aPropos">
             <p class="app-aProposTitre">A propos</p>
-            <p class="app-aProposText">Cannabis, also known as marijuana among other names,is a psychoactive
-                 drug from the Cannabis plant used primarily for medical and recreational purposes. 
-                 Tetrahydrocannabinol (THC) is the main psychoactive component of cannabis, which is one of the 
-                 483 known compounds in the plant,including at least 65 other cannabinoids,including cannabidiol (CBD).
-                 Cannabis can be used by smoking, vaporizing, within food, or as an extract.
-
-                Cannabis has various mental and physical effects, which include euphoria, altered states of mind and sense of time,
-                 difficulty concentrating, impaired short-term memory and body movement, relaxation, and 
-                 an increase in appetite.Onset of effects is felt within minutes when smoked, and about 30 to 60 minutes
-                  when cooked and eaten. The effects last for two to six hours, depending on the amount used.
-                     </p>      
+            <div class="app-aProposText">Situé dans la contrée champêtre de Chepy, à proximité de la Gentilhommière de la Vaubercerie,
+                 CinéFilm vous accueille tout au long de l'année pour vous faire profiter de son catalogue fourni et choisi avec
+                soin pour votre plus grand plaisir. Différents services sont également mis à votre disposition afin
+                 que vous puissiez profiter au mieux de votre séances 
+            </div>      
         </div>
-        <div class="app_container_SallesPlaces">
-            <div>
-                <div class="app-nbSallesPlaces">19</div>
-                <div class="app-nbSallesPlaces">3211</div>
-            </div>
-            <div>
-                <div class="app-nbSallesPlaces">salles</div>
-                <div class="app-nbSallesPlaces">places</div>
-            </div>
-        </div>
+            <table class="app-tableSallesPlaces">
+                <tr>
+                    <td class="app-nbSallesPlaces">15</td>
+                    <td class="app-nbSallesPlaces">3211</td>
+                </tr>
+                <tr>
+                    <td class="app-descriptifSallesPlaces">Salles</td>
+                    <td class="app-descriptifSallesPlaces">Places</td>
+                </tr>
+            </table>
     </div>
+    <div class="app-containerFlexParDefaut">
+        <div class="app-itemsTarifsHoraires">
+         <table style="padding-bottom: 4%; width: 100%;">
+             <tr>
+                   <td>
+                        <span class="app-titreTablePrimary">Tarifs</span>
+                 </td>
+             </tr>
+         </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Plein Tarif</td>
+                    <td class="app-tarifTableRight">14 €</td>
+                </tr>
+            </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Etudiants Scolaire</td>
+                    <td class="app-tarifTableRight">9 €</td>
+                </tr>
+            </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Moins de 14 ans</td>
+                    <td class="app-tarifTableRight">6 €</td>
+                </tr>
+            </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Moins de 26 ans</td>
+                    <td class="app-tarifTableRight">8 €</td>
+                </tr>
+            </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Plus de 65 ans</td>
+                    <td class="app-tarifTableRight">10 €</td>
+                </tr>
+            </table>
+        </div>
+        <div class="app-itemsTarifsHoraires">
+            <table style="padding-bottom: 4%; width: 100%;">
+                <tr>
+                    <td>
+                        <span class="app-titreTableComplements">Ce texte est caché</span>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="app-tarifTableLeft">Ce texte est caché</td>
+                    <td class="app-tarifTableRight"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="app-tarifTableLeft">Ce texte est caché</td>
+                    <td class="app-tarifTableRight"></td>
+                </tr>
+            </table>
+            
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Seances en 3D</td>
+                    <td class="app-tarifTableRight">+ 2 €</td>
+                </tr>
+            </table>
+            <table class="app-tarifsTable">
+                <tr>
+                    <td class="app-tarifTableLeft">Lunettes en 3D</td>
+                    <td class="app-tarifTableRight">+ 1 €</td>
+                </tr>
+            </table>
+        </div>
+        <div class="app-itemsTarifsHoraires">
+            <p style="color:white; margin-top: 30%; text-align: center">Horaires</p>
+            <p style="color:white; text-align: center">Ouvert 7 jours sur 7 toute l'année</p>
+            <p style="color:white; text-align: center">De 10h30 à 22h30</p>
+        </div>
+    </div>  
+    <p class="app-titreServices">Services</p>
+    <div class="app-containerFlexParDefaut">
+        <i class="fa fa-wifi fa-5x" style="color: white"></i>
+        <i class="fa fa-coffee fa-5x" style="color: white"></i>
+        <i class="fa fa-parking fa-5x" style="color: white"></i>
+        <i class="fa fa-cannabis fa-5x" style="color: white"></i>
+        <i class="fa fa-lungs-virus fa-5x" style="color: white"></i>
+        <i class="fa fa-dizzy fa-5x" style="color: white"></i>
+    </div>
+    <p>gçqhoijpk</p>
 </body>
 </html>
